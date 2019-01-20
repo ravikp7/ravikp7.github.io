@@ -1,0 +1,88 @@
+.mainPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 10px solid white;
+}
+
+.imageContainer {
+  width: inherit;
+}
+
+.infoCard {
+  position: absolute;
+  width: inherit;
+  height: 150px;
+  text-align: center;
+  animation-name: image-overlay;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+  bottom: 0;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0) 75px,
+    rgba(0, 0, 0, 0.726) 75px
+  );
+}
+
+.infoText {
+  color: white;
+  font-size: 20px;
+  transform: translateY(350%);
+}
+
+.displayPicture {
+  border-radius: 50%;
+  width: inherit;
+}
+
+@keyframes image-overlay {
+  0% {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0) 150px,
+      rgba(0, 0, 0, 0.726) 0px
+    );
+  }
+  20% {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0) 120px,
+      rgba(0, 0, 0, 0.726) 30px
+    );
+  }
+  40% {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0) 100px,
+      rgba(0, 0, 0, 0.726) 50px
+    );
+  }
+  60% {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0) 90px,
+      rgba(0, 0, 0, 0.726) 60px
+    );
+  }
+  80% {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0) 80px,
+      rgba(0, 0, 0, 0.726) 70px
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0) 75px,
+      rgba(0, 0, 0, 0.726) 75px
+    );
+  }
+}
