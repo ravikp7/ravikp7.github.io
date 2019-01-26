@@ -1,0 +1,29 @@
+.navButton {
+  height: 40px;
+  width: 40px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.buttonContainer {
+  height: 36px;
+  width: 36px;
+  border: 1px solid var(--main-darkest-color);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  margin: 2px 5px;
+  background-color: var(--main-light-color);
+}

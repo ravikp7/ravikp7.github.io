@@ -5,10 +5,12 @@ import style from './App.module.css';
 
 class App extends Component {
   render() {
+    const title = 'Ravi Kumar Prasad';
+    const navItems = ['Projects', 'Blog', 'About', 'Contact'];
     return (
       <div className={style.app}>
         <header className={style.appHeader}>
-          <Header />
+          <Header {...{ title, navItems }} />
         </header>
         <MainPage />
       </div>

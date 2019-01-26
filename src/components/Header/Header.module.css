@@ -1,11 +1,12 @@
 .mainHeader {
-  width: 80%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   color: white;
   font-size: 20px;
+  height: 60px;
 }
 
 .title {
@@ -17,4 +18,10 @@
 .navContainer {
   flex-grow: 1;
   height: 100%;
+}
+
+.navToggleContainer {
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
