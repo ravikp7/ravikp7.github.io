@@ -1,0 +1,4 @@
+.titleText:hover {
+  color: var(--main-light-color);
+  cursor: pointer;
+}

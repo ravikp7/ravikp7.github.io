@@ -5,47 +5,16 @@
   display: flex;
   flex-direction: row;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .title {
   flex-grow: 2;
-  padding: 12px;
+  display: flex;
+  align-items: center;
 }
 
 .navContainer {
   flex-grow: 1;
   height: 100%;
-}
-
-.navbar {
-  height: 100%;
-}
-
-.navList {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  height: 100%;
-  width: 100%;
-}
-
-.navItem {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 20px;
-}
-
-.navItem a {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  text-align: center;
-  height: 100%;
-}
-
-.navItem:hover {
-  color: var(--main-light-color);
-  box-shadow: inset 0 -2px 0 var(--main-light-color);
 }
