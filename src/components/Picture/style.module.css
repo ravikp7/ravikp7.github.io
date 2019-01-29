@@ -1,0 +1,12 @@
+.imageContainer {
+  width: inherit;
+}
+
+.pictureCircle {
+  border-radius: 50%;
+  width: inherit;
+}
+
+.picture {
+  width: inherit;
+}
