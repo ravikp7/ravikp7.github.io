@@ -1,0 +1,66 @@
+:root {
+  --drone-dark-color: #0f1a1b;
+  --drone-light-color: #057fdd;
+}
+
+.drone {
+  position: absolute;
+  animation: fly 1s ease-in-out infinite 0s;
+}
+
+.droneBody {
+  position: relative;
+  height: 6vh;
+  width: 7vh;
+  border-radius: 10%;
+  margin: 0 auto;
+  background-color: var(--drone-dark-color);
+}
+
+.bar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 1.25vh;
+  width: 16vh;
+  border-radius: 10%;
+  background-color: var(--drone-light-color);
+  transform: rotateZ(180deg);
+}
+
+.verticalBar {
+  height: 4vh;
+  width: 1.25vh;
+  border-radius: 40%;
+  background-color: var(--drone-dark-color);
+  transform: rotateZ(180deg);
+}
+
+.blade {
+  height: 0.5vh;
+  width: 6vh;
+  background-color: var(--drone-light-color);
+  animation: blade-rotate 0.2s linear infinite;
+}
+
+@keyframes blade-rotate {
+  0% {
+    transform: translateX(-2.25vh) rotateX(0deg);
+  }
+  100% {
+    transform: translateX(-2.25vh) rotateX(360deg);
+  }
+}
+
+@keyframes fly {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
