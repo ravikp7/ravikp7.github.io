@@ -1,7 +1,7 @@
 import React from 'react';
 import Picture from '../../Picture';
 import ImageOverlay from './ImageOverlay';
-import displayPicture from '../../../assets/my-picture.jpg';
+import displayPicture from '../../../assets/my-picture.webp';
 import style from './style.module.css';
 
 const displayPictureAlt = 'Ravi Kumar Prasad';
