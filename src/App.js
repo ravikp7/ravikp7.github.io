@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import MainPage from './pages/Main';
 import WorkPage from './pages/Work';
+import ContactPage from './pages/Contact';
 import style from './App.module.css';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         </header>
         <MainPage />
         <WorkPage />
+        <ContactPage />
       </div>
     );
   }
