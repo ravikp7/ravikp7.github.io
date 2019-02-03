@@ -8,7 +8,7 @@
 
 .cardContainer {
   width: 100%;
-  margin: 2rem;
+  margin: 5rem 2rem;
   display: grid;
   grid-gap: 5rem;
   align-content: center;
