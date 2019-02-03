@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import MainPage from './pages/MainPage';
+import WorkPage from './pages/Work';
 import style from './App.module.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
           <Header {...{ title, navItems }} />
         </header>
         <MainPage />
+        <WorkPage />
       </div>
     );
   }
