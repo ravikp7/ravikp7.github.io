@@ -13,7 +13,7 @@ class DroneGround extends Component {
       dronePositions: [
         { x: 40, y: 15 },
         { x: 65, y: 25 },
-        { x: 10, y: 25 },
+        { x: 12, y: 30 },
         { x: 15, y: 80 },
         { x: 65, y: 75 },
       ],
