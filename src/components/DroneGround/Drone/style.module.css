@@ -1,19 +1,44 @@
 :root {
   --drone-dark-color: #0f1a1b;
   --drone-light-color: #057fdd;
+  --drone-fly-time: 1.5s;
 }
 
-.drone {
+.drone-animate-box-1 {
   position: absolute;
-  animation: fly 1s ease-in-out infinite 0s;
+  animation: fly var(--drone-fly-time) ease-in-out infinite 0s;
+}
+
+.drone-animate-box-2 {
+  position: absolute;
+  animation: fly var(--drone-fly-time) ease-in-out infinite 0.2s;
+}
+
+.drone-animate-box-3 {
+  position: absolute;
+  animation: fly var(--drone-fly-time) ease-in-out infinite 0.4s;
+}
+
+.drone-animate-box-4 {
+  position: absolute;
+  animation: fly var(--drone-fly-time) ease-in-out infinite 0.6s;
+}
+
+.drone-animate-box-5 {
+  position: absolute;
+  animation: fly var(--drone-fly-time) ease-in-out infinite 0.8s;
 }
 
 .droneBody {
   position: relative;
-  height: 6vh;
-  width: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 6vh;
   border-radius: 10%;
   margin: 0 auto;
+  border: 1vh solid var(--drone-dark-color);
   background-color: var(--drone-dark-color);
 }
 
