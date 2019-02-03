@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  height: 8rem;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 35% 5% 35%;
+}
+
+.firstColumn {
+  width: 100%;
+  height: 100%;
+}
+
+.timePeriod {
+  font-size: 1.2rem;
+}
+
+.secondColumn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progressPoint {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 0.75rem;
+  background-color: var(--main-light-color);
+}
+
+.progressBar {
+  height: 6.5rem;
+  width: 30%;
+  border-radius: 10%;
+  background-color: var(--main-dark-color);
+}
+
+.thirdColumn {
+  width: 100%;
+  height: 100%;
+}
