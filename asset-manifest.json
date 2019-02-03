@@ -1,16 +1,16 @@
 {
-  "main.css": "/static/css/main.fefe0119.chunk.css",
-  "main.js": "/static/js/main.e811b9d8.chunk.js",
-  "main.js.map": "/static/js/main.e811b9d8.chunk.js.map",
-  "static/js/1.50d3c29b.chunk.js": "/static/js/1.50d3c29b.chunk.js",
-  "static/js/1.50d3c29b.chunk.js.map": "/static/js/1.50d3c29b.chunk.js.map",
+  "main.css": "/static/css/main.59a4bdd8.chunk.css",
+  "main.js": "/static/js/main.b792f5c8.chunk.js",
+  "main.js.map": "/static/js/main.b792f5c8.chunk.js.map",
+  "static/js/1.38a12527.chunk.js": "/static/js/1.38a12527.chunk.js",
+  "static/js/1.38a12527.chunk.js.map": "/static/js/1.38a12527.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.fefe0119.chunk.css.map": "/static/css/main.fefe0119.chunk.css.map",
+  "static/css/main.59a4bdd8.chunk.css.map": "/static/css/main.59a4bdd8.chunk.css.map",
   "static/media/my-picture.webp": "/static/media/my-picture.1b6a5d99.webp",
   "static/media/react-logo.webp": "/static/media/react-logo.98ad3825.webp",
   "static/media/nodejs-logo.webp": "/static/media/nodejs-logo.e9e51171.webp",
   "index.html": "/index.html",
-  "precache-manifest.45880d1bc4171cae9669da13c74c1388.js": "/precache-manifest.45880d1bc4171cae9669da13c74c1388.js",
+  "precache-manifest.732d9a51c1f474662cf28fbb291d295b.js": "/precache-manifest.732d9a51c1f474662cf28fbb291d295b.js",
   "service-worker.js": "/service-worker.js"
 }
