@@ -5,7 +5,7 @@ import ProjectContent from '../../components/ProjectContent';
 import style from './style.module.css';
 
 const WorkPage = () => (
-  <div className={style.main}>
+  <div className={style.main} id="work">
     <div className={style.cardContainer}>
       <div className={style.work}>
         <WorkCard {...{ name: 'Experience' }}>

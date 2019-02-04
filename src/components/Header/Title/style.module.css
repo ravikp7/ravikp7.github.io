@@ -2,3 +2,11 @@
   color: var(--main-light-color);
   cursor: pointer;
 }
+
+.titleText a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-align: center;
+  height: 100%;
+}

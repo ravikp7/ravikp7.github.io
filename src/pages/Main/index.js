@@ -6,7 +6,7 @@ import style from './MainPage.module.css';
 export default class MainPage extends Component {
   render() {
     return (
-      <div className={style.mainPage}>
+      <div className={style.mainPage} id="main">
         <DroneGround />
         <CenterImage />
       </div>

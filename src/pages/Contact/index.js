@@ -22,7 +22,7 @@ const contactInfo = [
 ];
 
 const Contact = () => (
-  <div className={style.main} id="#contact">
+  <div className={style.main} id="contact">
     <div className={style.email}>
       <a href="mailto:7ravikp@gmail.com">7ravikp@gmail.com</a>
     </div>

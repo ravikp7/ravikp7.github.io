@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
 import MainPage from './pages/Main';
 import WorkPage from './pages/Work';
@@ -8,16 +9,18 @@ import style from './App.module.css';
 class App extends Component {
   render() {
     const title = 'Ravi Kumar Prasad';
-    const navItems = ['Projects', 'Blog', 'About', 'Contact'];
+    const navItems = ['Work', 'Blog', 'About', 'Contact'];
     return (
-      <div className={style.app}>
-        <header className={style.appHeader}>
-          <Header {...{ title, navItems }} />
-        </header>
-        <MainPage />
-        <WorkPage />
-        <ContactPage />
-      </div>
+      <BrowserRouter>
+        <div className={style.app}>
+          <header className={style.appHeader}>
+            <Header {...{ title, navItems }} />
+          </header>
+          <MainPage />
+          <WorkPage />
+          <ContactPage />
+        </div>
+      </BrowserRouter>
     );
   }
 }
