@@ -9,7 +9,11 @@
   align-items: center;
 }
 
-.titleText a {
+.navLink {
+  height: 100%;
+}
+
+.navLink a {
   text-decoration: none;
   color: inherit;
   display: block;

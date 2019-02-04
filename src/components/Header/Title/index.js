@@ -4,9 +4,11 @@ import { NavHashLink as NavLink } from 'react-router-hash-link';
 import style from './style.module.css';
 
 const Title = ({ title }) => (
-  <NavLink smooth to="#main">
-    <span className={style.titleText}>{title}</span>
-  </NavLink>
+  <div className={style.navLink}>
+    <NavLink smooth to="#main">
+      <span className={style.titleText}>{title}</span>
+    </NavLink>
+  </div>
 );
 
 Title.propTypes = {

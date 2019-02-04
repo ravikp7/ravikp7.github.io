@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-a {
+.navLink a {
   text-decoration: none;
   color: inherit;
   display: block;
