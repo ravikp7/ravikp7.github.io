@@ -1,0 +1,63 @@
+.main {
+  width: 100%;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.title {
+  width: 80%;
+  height: 5rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContent {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 1rem 0.5rem 5rem 0.1rem rgba(0, 0, 0, 0.26);
+}
+
+@media only screen and (max-width: 1000px) {
+  .aboutContent {
+    width: 75%;
+    height: 20rem;
+    font-size: 1.35rem;
+  }
+  .quoteContent {
+    font-size: 1.5rem;
+  }
+  .quoteHeader {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .aboutContent {
+    width: 60%;
+    height: 12rem;
+    font-size: 1.5rem;
+  }
+  .quoteContent {
+    font-size: 2rem;
+  }
+  .quoteHeader {
+    font-size: 1.5rem;
+  }
+}
+
+.quoteHeader {
+  height: 3rem;
+  margin-top: 8rem;
+}
+
+.quoteContent {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+}

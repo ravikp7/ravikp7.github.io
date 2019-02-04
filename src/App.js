@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
 import MainPage from './pages/Main';
+import AboutPage from './pages/About';
 import WorkPage from './pages/Work';
 import ContactPage from './pages/Contact';
 import style from './App.module.css';
@@ -17,6 +18,7 @@ class App extends Component {
             <Header {...{ title, navItems }} />
           </header>
           <MainPage />
+          <AboutPage />
           <WorkPage />
           <ContactPage />
         </div>
