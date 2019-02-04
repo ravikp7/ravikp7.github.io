@@ -3,6 +3,12 @@
   cursor: pointer;
 }
 
+.titleText {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .titleText a {
   text-decoration: none;
   color: inherit;
