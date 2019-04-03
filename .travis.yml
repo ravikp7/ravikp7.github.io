@@ -10,4 +10,6 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: "./build"
+  on:
+    branch: master-main-site
   target_branch: "master"
