@@ -9,4 +9,4 @@ script:
   - yarn lint
   - yarn test
   - yarn build
-  - gh-pages --repo https://$GITHUB_TOKEN@github.com/ravikp7/ravikp7.github.io.git -d build -b master
+  - if [ "$TRAVIS_BRANCH" =  "master-main-site" ]; then gh-pages --repo https://$GITHUB_TOKEN@github.com/ravikp7/ravikp7.github.io.git -d build -b master; fi
