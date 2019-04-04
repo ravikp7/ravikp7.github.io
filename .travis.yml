@@ -5,11 +5,6 @@ node_js:
 cache:
   yarn: true
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: "./build"
-  on:
-    branch: master-main-site
-  target_branch: "master"
+script:
+  - yarn build
+  - gh-pages --repo https://$GITHUB_TOKEN@github.com/ravikp7/ravikp7.github.io.git -d build -b master
