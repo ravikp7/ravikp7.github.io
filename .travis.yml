@@ -6,5 +6,7 @@ cache:
   yarn: true
 
 script:
+  - yarn lint
+  - yarn test
   - yarn build
   - gh-pages --repo https://$GITHUB_TOKEN@github.com/ravikp7/ravikp7.github.io.git -d build -b master
