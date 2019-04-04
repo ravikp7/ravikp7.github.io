@@ -7,7 +7,7 @@
   grid-template-rows: auto auto;
   background-image: linear-gradient(
     to top,
-    #120867 0%,
+    #040024 0%,
     var(--main-light-color) 100%
   );
 }
