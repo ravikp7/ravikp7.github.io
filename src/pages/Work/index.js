@@ -27,7 +27,7 @@ const WorkPage = () => (
       {' '}
       or
       {' '}
-      <a href="#na">resume</a>
+      <a rel="noopener noreferrer" target="_blank" href="https://s3.ap-south-1.amazonaws.com/resume-ravi-kumar-prasad/Resume+-+Ravi+Kumar+Prasad.pdf">resume</a>
       {' '}
 ?
     </div>
